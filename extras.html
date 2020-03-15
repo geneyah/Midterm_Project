@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <title>Extras</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="image/logo.png">
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img src="image/l2.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Gallery
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="gallery.html?id=Pesonal-photos">Personal Photos</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="gallery.html?select=mark">Someone Special</a>
+                  </div>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="extras.html" >Extras <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="videos.html" >Videos</a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+          <div class="card">
+            <div class="card-header">
+              Quote
+            </div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>Telling someone about what a symbol means is like telling someone how music should make them feel.</p>
+                <footer class="blockquote-footer">Dan Brown <cite title="Source Title">The Vinci Code</cite></footer>
+              </blockquote>
+            </div>
+          </div>
+    </header>
+    <article>
+        <div>
+            <h2>On this page you can explore my hobbies</h2>
+            <table width="100%"; border="1">
+                <th colspan="4">Book Recommendations </th>
+                <tr>
+                    <td><img src="image/book/1.jpg"  width="50%" ></td>
+                    <td><p>In the novel Inferno by Dan Brown, Harvard professor Robert Langdon is recruited by the World Health Organization (WHO) to help locate a deadly pathogen. The virus is believed to have been created by Bertrand Zobrist, a Transhumanist who thought that the world was in danger of collapse because of overpopulation.</p></td>
+                </tr>
+                <tr>
+                    <td><img src="image/book/2.jpg" width="50%" ></td>
+                    <td><p>Angels & Demons is a 2009 American mystery thriller film directed by Ron Howard and written by Akiva Goldsman and David Koepp, based on Dan Brown's novel of the same title. It is the sequel to the 2006 film The Da Vinci Code, also directed by Howard, and the second installment in the Robert Langdon film series.</p></td>
+
+                </tr>
+                <tr>
+                    <td><img src="image/book/3.jfif" width="50%" ></td>
+                    <td><p>Symbologist Robert Langdon travels from Paris to London to discover the truth behind a mysterious and bizarre murder. Later, he learns about a religious mystery protected by a secret society.</p></td>
+
+                </tr>
+                <tr>
+                    <td><img src="image/book/4.jpg" width="50%" ></td>
+                    <td><p>Origin is a 2017 mystery thriller novel by American author Dan Brown and the fifth installment in his Robert Langdon series, following Inferno. The book was released on October 3, 2017 by Doubleday. The book is predominantly set in Spain and features minor sections in Dubai and Budapest.</p></td>
+
+                </tr>
+            </table>
+
+        </div>
+       
+        <div>
+            <table width="100%"; border="1">
+                <th colspan="4">Traits and Hobbies </th>
+                <tr>
+                    
+                    <td><p>I have a goofy Personality, I like to make people around me happy</p></td>
+                    <td><img src="image/gif/1.gif"  width="100%" ></td>
+                </tr>
+                <tr>                    
+                    <td><p>I love the sport DRAGONBOAT, whiich is what I also miss at the moment.</p></td>
+                    <td><img src="image/gif/2.gif" width="100%" ></td>
+                </tr>
+                <tr>                    
+                    <td><p>This is me when someone's criticizing me.</p></td>
+                    <td><img src="image/gif/3.gif" width="100%" ></td>
+                </tr>
+                <tr>                  
+                    <td><p>This is also me, when someone want to fight with me or messed with my friends.</p></td>
+                    <td><img src="image/gif/4.gif" width="100%" ></td>
+                </tr>
+                <tr></tr>                   
+                    <td><p>Me, Trying to kick toxic people out of my life.</p></td>
+                    <td><img src="image/gif/5.gif" width="100%" ></td>
+                </tr>
+            </table>
+        </div>
+    </article>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

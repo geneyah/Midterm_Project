@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <title>Gallery</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="image/logo.png">
+</head>
+<body>
+    
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img src="image/l2.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home </span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Gallery<span class="sr-only">(current)</span>
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#Personal-photos">Personal Photos</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#mark">Someone Special</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="extras.html" >Extras</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="videos.html" >Videos</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <div class="card">
+            <div class="card-header">
+              Quote
+            </div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>Nothing is more creative... nor destructive... than a brilliant mind with a purpose.</p>
+                <footer class="blockquote-footer">Dan Brown <cite title="Source Title">Inferno</cite></footer>
+              </blockquote>
+            </div>
+          </div>
+    </header>
+    <article>
+          <div class="tb">
+          <h2 id="Personal-photos">Personal Photos</h2>
+            <!-- The four columns -->
+              <div class="row">
+              <div class="column">
+                <img src="image/personal/1.jpg" alt="image-1" onclick="myFunction(this);">
+              </div>
+              <div class="column">
+                <img src="image/personal/2.jpg" alt="Snow" onclick="myFunction(this);">
+              </div>
+              <div class="column">
+                <img src="image/personal/3.jpg" alt="Mountains" onclick="myFunction(this);">
+              </div>
+              <div class="column">
+                <img src="image/personal/4.jpg" alt="Lights"  onclick="myFunction(this);">
+              </div>
+            </div>
+           
+            <div class="row">
+              <div class="column">
+                <img src="image/personal/5.jpg" alt="Lights"  onclick="myFunction(this);">
+             </div>
+             <div class="column">
+              <img src="image/personal/6.jpg" alt="Lights"  onclick="myFunction(this);">
+            </div>
+            <div class="column">
+              <img src="image/personal/7.jpg" alt="Lights"  onclick="myFunction(this);">
+            </div>
+            <div class="column">
+              <img src="image/personal/8.jpg" alt="Lights"  onclick="myFunction(this);">
+            </div>
+          </div>
+         
+         
+          <div class="row">
+            <div class="column">
+              <img src="image/personal/9.jpg" alt="Lights"  onclick="myFunction(this);">
+            </div>
+            <div class="column">
+              <img src="image/personal/10.jpg" alt="Lights" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+              <img src="image/personal/11.jpg" alt="Lights"  onclick="myFunction(this);">
+            </div>
+            <div class="column">
+              <img src="image/personal/12.jpg" alt="Lights"  onclic k="myFunction(this);">
+            </div>
+          </div> 
+          <div class="container">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <img id="expandedImg">
+            <div id="imgtext"></div>
+          </div>
+           </div> 
+
+          <div class="row">
+            <h2 id="mark">My Baby❤❤</h2>
+            <div class="column">
+              <br><br/><img src="image/mark/1.jpg" alt="image-1" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+              <img src="image/mark/2.jpg" alt="Snow" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+              <img src="image/mark/3.jpg" alt="Mountains" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+              <img src="image/mark/4.jpg" alt="Lights"  onclick="myFunction(this);">
+            </div>
+          </div>
+         
+          <div class="row">
+            <div class="column">
+              <img src="image/mark/5.jpg" alt="Lights"  onclick="myFunction(this);">
+           </div>
+           <div class="column">
+            <img src="image/mark/6.jpg" alt="Lights"  onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="image/mark/7.jpg" alt="Lights"  onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="image/mark/8.jpg" alt="Lights"  onclick="myFunction(this);">
+          </div>
+        </div>
+       
+        <div class="row">
+          <div class="column">
+            <img src="image/mark/9.jpg" alt="Lights"  onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="image/mark/10.jpg" alt="Lights" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="image/mark/11.jpg" alt="Lights"  onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="image/mark/12.jpg" alt="Lights"  onclick="myFunction(this);">
+          </div>
+         </div> 
+          </div>
+       
+          
+    </article>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+        <script>
+          function myFunction(imgs) {
+            var expandImg = document.getElementById("expandedImg");
+            var imgText = document.getElementById("imgtext");
+            expandImg.src = imgs.src;
+            imgText.innerHTML = imgs.alt;
+            expandImg.parentElement.style.display = "inline-block";
+          }
+          </script>
+        
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
